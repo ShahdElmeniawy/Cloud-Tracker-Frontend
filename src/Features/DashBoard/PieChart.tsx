@@ -64,6 +64,8 @@ const PieChart = ({ type }: { type: "full" | "mini" }) => {
 				pricing={pricing}
 				setPricing={setPricing}
 			/>
+			{/* <FilterDate/> */}
+
 			<ReactApexChart
 				options={miniChartData.options}
 				series={miniChartData.series}
